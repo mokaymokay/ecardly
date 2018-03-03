@@ -15,8 +15,6 @@ section {
   display: flex;
   flex-direction: column;
   margin: 5% 10%;
-  justify-content: center;
-  align-items: center;
 }
 
 .section-title {
@@ -38,8 +36,9 @@ h5, p {
 }
 
 p {
-  font-size: 70%;
-  margin-left: 2%;
+  font-size: 65%;
+  margin-left: 4%;
+  margin-top: 0;
 }
 
 a {
@@ -48,4 +47,35 @@ a {
   display: inline;
   font-weight: bold;
   text-decoration: none;
+}
+
+.ecard-image {
+  width: 70%;
+}
+
+.ecard-image img {
+  width: 100%;
+}
+
+.ecard-description {
+  width: 29%;
+}
+
+@media all and (max-width: 660px) {
+  .ecard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ecard-image {
+    width: 100%;
+  }
+
+  .ecard-description {
+    width: 100%;
+  }
+
+  p {
+    margin: 0;
+  }
 }
