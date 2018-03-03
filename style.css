@@ -9,3 +9,43 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+section {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  margin: 5% 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 100%;
+  align-self: flex-start;
+  padding-top: 4%;
+  padding-left: 2%;
+  margin: 0;
+}
+
+h5, p {
+  font-family: helvetica;
+}
+
+.ecard {
+  display: flex;
+  margin: 2%;
+}
+
+p {
+  font-size: 70%;
+  margin-left: 2%;
+}
+
+a {
+  text-transform: uppercase;
+  color: #F63A00;
+  display: inline;
+  font-weight: bold;
+  text-decoration: none;
+}
