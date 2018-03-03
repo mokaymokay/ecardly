@@ -14,12 +14,12 @@ section {
   background-color: #FFF;
   display: flex;
   flex-direction: column;
-  margin: 5% 10%;
+  margin: 5% 15%;
 }
 
 .section-title {
   font-weight: bold;
-  font-size: 100%;
+  font-size: 2vw;
   align-self: flex-start;
   padding-top: 4%;
   padding-left: 2%;
@@ -36,7 +36,7 @@ h5, p {
 }
 
 p {
-  font-size: 65%;
+  font-size: 1.2vw;
   margin-left: 4%;
   margin-top: 0;
 }
@@ -61,21 +61,23 @@ a {
   width: 29%;
 }
 
-@media all and (max-width: 660px) {
+@media all and (max-width: 414px) {
+  section { margin: 5% 1%; }
+  .ecard-image { width: 100%; }
+  .ecard-description { width: 100%; }
+
   .ecard {
     display: flex;
     flex-direction: column;
   }
 
-  .ecard-image {
-    width: 100%;
-  }
-
-  .ecard-description {
-    width: 100%;
-  }
-
   p {
     margin: 0;
+    font-size: 100%;
   }
+
+  .section-title {
+    font-size: 120%;
+  }
+
 }
