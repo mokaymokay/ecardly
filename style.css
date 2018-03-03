@@ -3,3 +3,9 @@ body {
   background-image: url('images/background.jpg');
   background-repeat: repeat-x;
 }
+
+#logo {
+  padding-top: 1%;
+  display: block;
+  margin: 0 auto;
+}
